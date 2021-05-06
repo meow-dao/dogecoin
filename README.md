@@ -2,7 +2,6 @@
 
 ![MEOW]https://media.discordapp.net/attachments/837707670512468058/838707859143393290/YingYangWhiskers.png?width=674&height=674)
 
-[![Build Status](https://travis-ci.com/dogecoin/dogecoin.svg?branch=master)](https://travis-ci.com/dogecoin/dogecoin)
 
 MEOW is fork of Dogecoin's state in 2021 after upgrades. It is a cryptocurrency like Bitcoin in which you leverage the native token for transaction fees, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin,
 MEOW currently employs a simplified variant of scrypt.

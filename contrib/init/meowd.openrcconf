@@ -1,0 +1,33 @@
+# /etc/conf.d/meowd: config file for /etc/init.d/meowd
+
+# Config file location
+#MEOWD_CONFIGFILE="/etc/meow/meow.conf"
+
+# What directory to write pidfile to?  (created and owned by $MEOWD_USER)
+#MEOWD_PIDDIR="/var/run/meowd"
+
+# What filename to give the pidfile
+#MEOWD_PIDFILE="${MEOWD_PIDDIR}/meowd.pid"
+
+# Where to write meowd data (be mindful that the blockchain is large)
+#MEOWD_DATADIR="/var/lib/meowd"
+
+# User and group to own meowd process
+#MEOWD_USER="meow"
+#MEOWD_GROUP="meow"
+
+# Path to meowd executable
+#MEOWD_BIN="/usr/bin/meowd"
+
+# Nice value to run meowd under
+#MEOWD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+MEOWD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for meowd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+MEOWD_SIGTERM_TIMEOUT=60

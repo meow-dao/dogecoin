@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dogecoind.service
-Upstart: dogecoind.conf
-OpenRC:  dogecoind.openrc
-         dogecoind.openrcconf
-CentOS:  dogecoind.init
-OS X:    org.dogecoin.dogecoind.plist
+SystemD: meowd.service
+Upstart: meowd.conf
+OpenRC:  meowd.openrc
+         meowd.openrcconf
+CentOS:  meowd.init
+OS X:    org.meow.meowd.plist
 
 have been made available to assist packagers in creating node packages here.
 

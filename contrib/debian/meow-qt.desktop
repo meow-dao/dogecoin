@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Meow Money Core
+Comment=Connect to the Meow Money P2P Network
+Comment[de]=Verbinde mit dem Meow Money peer-to-peer Netzwerk
+Comment[fr]=Meow, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Meow, eşten eşe kriptografik sanal para birimi
+Exec=meow-qt %u
+Terminal=false
+Type=Application
+Icon=meow128
+MimeType=x-scheme-handler/meow;
+Categories=Office;Finance;

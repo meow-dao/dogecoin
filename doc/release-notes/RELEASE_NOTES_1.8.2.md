@@ -1,15 +1,15 @@
-# Dogecoin Core 1.8.2
+ Meow Core 1.0.0
 
-Dogecoin Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
+Meow Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
 
-## Dogecoin Core Release Notes
+## Meow Core Release Notes
 
 * Update to OpenSSL 1.0.1l
 
 
 ## OpenSSL Warning
 
-The main takeaway is that builds from http://dogecoin.com are not affected. But if you build your own version,
+The main takeaway is that builds from http://meow.ventures are not affected. But if you build your own version,
 please make sure you update to 1.8.2 **before** updating your OpenSSL!
 
 Please refer to this section in the Bitcoin Core release notes for further info: https://github.com/bitcoin/bitcoin/blob/0.9/doc/release-notes.md#openssl-warning
@@ -19,7 +19,7 @@ Please refer to this section in the Bitcoin Core release notes for further info:
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into Dogecoin Core:
+into Meow Core:
 
 * Cory Fields
 * langerhans
@@ -27,3 +27,4 @@ into Dogecoin Core:
 * Gregory Maxwell
 * Ross Nicoll
 * Wladimir J. van der Laan
+* Logan
