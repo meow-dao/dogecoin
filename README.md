@@ -1,5 +1,8 @@
 # MEOW Core [MEOW, 𝕸]
 
+#TODO: ISSUANCE , HALVING, PREMINE? , BUILD SCRIPTS - May 6
+
+
 ![MEOW]https://media.discordapp.net/attachments/837707670512468058/838707859143393290/YingYangWhiskers.png?width=674&height=674)
 
 
